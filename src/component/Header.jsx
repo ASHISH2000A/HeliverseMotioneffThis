@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "../assets/MotionArtEffect-logo.png"
 
 const Header = () => {
  
@@ -18,7 +19,7 @@ const Header = () => {
   <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
     <div class="inline-flex items-center space-x-2">
       <span>
-         <img src="src\assets\MotionArtEffect-logo.png" alt="Logo" />   
+         <img src={logo} alt="Logo" />   
       </span>
     </div>
     <div class="hidden lg:block">
