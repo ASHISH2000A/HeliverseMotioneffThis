@@ -1,56 +1,28 @@
 import React from 'react'
+import WebBrowser from '../assets/motionarteffect-img8.png'
 
-const Banner = () => {
+const WebBrowse = () => {
 
-   const Sorafont={
-          fontFamily:'Sora,sans-seriff',
-          fontSize:"60px",
-          width:'650px'
-   }
-   const Sorafontp={
-      fontFamily:'Sora,sans-seriff',
-     
-}
+  const Sorafont={
+    fontFamily:'Sora,sans-seriff',
+ }
 
+ const Outfitp={
+  fontFamily:'Outfit,sans-seriff',
+ }
 
 
   return (
-    <>
-     <div class=" relative flex md:flex">
-         <div class="flex-none w-80">
-            <div class="flex flex-col w-full ">
-                  <div className='px-24 py-24'>
-                      <p className='text-white text text-lg font-medium'><span className='bg-gradient-to-l from-[#6228d7] via-[#ee2a7b] to-[#f9ce34] bg-clip-text text-transparent' style={Sorafontp}>Transform Your Website</span></p>
-                  </div>
-                  <div className='px-24' style={{marginTop:"-90px"}}>
-                    <p className='text-white text text-lg font-medium '><span className='bg-gradient-to-l from-[#6228d7] via-[#ee2a7b] to-[#f9ce34] bg-clip-text text-transparent'>With Motion Art Effect </span></p>
-                  </div>
-            </div>
-         </div>
-         <div class="flex-initial w-80">
-            <div class="flex flex-col ">
-                  <div className=' px-16 py-24'> 
-                     <h1 style={Sorafont} className='  font-semibold text-white'>
-                      Attract Your Visitors Attention With Colorful <span className=' bg-gradient-to-l from-[#6228d7] via-[#ee2a7b] to-[#f9ce34] bg-clip-text text-transparent'>Motion Art Effect</span>
-                     </h1>
-
-
-
-                  </div>
-                  <div className='' style={{width:"750px",marginTop:"-80px"}}>
-                     <h2 className='font-Outfit text-[#EEE5FFBD] text-lg font-light px-16'>
-                         Unleash the power of creativity with Motion Art for Elementor - 
-                         your ultimate solution for seamlessly 
-                         integrating captivating animations into your website.
-                     </h2>                    
-                  </div>
-            </div>
-         </div>
-         
-     </div>
-
-    </>
+    <div className="relative flex justify-center items-center max-w-full py-20">
+    <div className="bg-gradient-to-r from-[#0F0821] to-[#221B33] mx-16 border-2 border-x-gray-500 border-y-gray-700 p-16 rounded-2xl shadow-lg w-full text-center">
+      <h2 className="text-2xl font-medium mb-4 text-white" style={Sorafont}>Supported by All Popular Browsers</h2>
+      <p className="mb-8  text-[#EEE5FFBD] font-light text-lg" style={Outfitp}>Rest assured, Motion Art is designed to be compatible <br/> with all major web browsers.</p>
+      <div className="flex justify-center space-x-6">
+      <img src={WebBrowser} alt="webBrowsers" className='h-auto w-auto' />   
+      </div>
+    </div>
+  </div>
   )
 }
 
-export default Banner
+export default WebBrowse
