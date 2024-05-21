@@ -1,4 +1,5 @@
 import React from 'react'
+import magicWand from '../assets/motionarteffect-img5.png'
 
 const block = () => {
 
@@ -32,7 +33,7 @@ const block = () => {
         </button>
     </div>
     <div className="md:w-1/3 flex justify-center md:justify-end">
-        <img src="src\assets\MotionArtEffect-img5.png" alt="Magic Wand" class="w-60 h-60"/>
+        <img src={magicWand} alt="Magic Wand" class="w-60 h-60"/>
     </div>
 </div>
   )
