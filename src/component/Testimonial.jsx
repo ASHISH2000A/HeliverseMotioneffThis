@@ -1,4 +1,8 @@
 import React from 'react'
+import EnvatoLogo from '../assets/envatologobg.png'
+import GoogleFi from '../assets/motionarteffect-img1.png'
+import WordPress from '../assets/motionarteffect-img3.png'
+import Reviewimg from '../assets/motionarteffect-img4.png'
 
 const Testimonial = () => {
    
@@ -23,11 +27,11 @@ const Testimonial = () => {
             {/* <!-- Review 1 --> */}
             <div className="flex flex-row items-center gap-5">
                 <div className="bg-gray-800 p-4 rounded-full h-24 w-24 border-2  border-gray-600 ">
-                    <img src="src\assets\envatologobg.png" alt="Icon 1" className='object-cover'/>
+                    <img src={EnvatoLogo} alt="Icon 1" className='object-cover'/>
                 </div>
                 <div className='flex flex-col '>
                     <div className="text-xl mb-4">
-                        <img src="src\assets\MotionArtEffect-img4.png" alt=""/>
+                        <img src={ Reviewimg } alt="Review"/>
                     </div>
                     <div className="text-sm" style={SoraReview}>4.5 Score, 9 Reviews</div>
                 </div>
@@ -37,10 +41,11 @@ const Testimonial = () => {
             {/* <!-- Review 2 --> */}
             <div className="flex flex-row items-center gap-5">
                 <div className="bg-gray-800 border-2 border-gray-600 rounded-full  h-24 w-24 ">
-                    <img src="src\assets\motionarteffect-img1.png" alt="Icon 1" className='mb-2 ' style={{height:"89px",width:"100px"}}/>
+                    <img src={GoogleFi } alt="googleFi" className='mb-2 ' style={{height:"89px",width:"100px"}}/>
                 </div>
                 <div className='flex flex-col'>
-                    <div className="text-xl mb-4"><img src="src\assets\MotionArtEffect-img4.png" alt="" /></div>
+                    <div className="text-xl mb-4">
+                    <img src={ Reviewimg } alt="Review"/></div>
                     <div className="text-sm" style={SoraReview}>4.5 Score, 9 Reviews</div>
                 </div>
             </div>
@@ -50,10 +55,11 @@ const Testimonial = () => {
             {/* <!-- Review 3 --> */}
             <div className="flex flex-row items-center gap-5">
             <div className="bg-gray-800 border-2 border-gray-600 rounded-full  h-24 w-24 ">
-                    <img src="src\assets\motionarteffect-img3.png" alt="Icon 1" className='mb-2 ' style={{height:"89px",width:"100px"}}/>
+                    <img src={WordPress} alt="Wordpress" className='mb-2 ' style={{height:"89px",width:"100px"}}/>
                 </div>
                 <div className='flex flex-col'>
-                    <div className="text-xl mb-4"><img src="src\assets\MotionArtEffect-img4.png" alt="" /></div>
+                    <div className="text-xl mb-4">
+                    <img src={ Reviewimg } alt="Review"/></div>
                     <div className="text-sm" style={SoraReview}>4.5 Score, 9 Reviews</div>
                 </div>
             </div>
