@@ -1,10 +1,22 @@
 import React from 'react'
 
 const Testimonial = () => {
+   
+
+      const Outfitp={
+         fontFamily:'Outfit,sans-seriff'
+      }
+
+      const SoraReview={
+        fontFamily:'Sora,sans-seriff'
+     }
+
+
+
   return (
       <>
-        <div className="text-center text-white mt-24 p-16">
-        <h2 className="mb-14 text-xl font-Outfit text-[#EEE5FF] font-light">Trusted by thousands of users around the world</h2>
+        <div className="relative text-center text-white mt-24 p-16">
+        <h2 className="mb-14 text-xl font-Outfit text-[#EEE5FF] font-light" style={Outfitp}>Trusted by thousands of users around the world</h2>
         <div className="flex flex-col items-center gap-48 sm:flex-row sm:justify-center">
 
 
@@ -17,7 +29,7 @@ const Testimonial = () => {
                     <div className="text-xl mb-4">
                         <img src="src\assets\MotionArtEffect-img4.png" alt=""/>
                     </div>
-                    <div className="text-lg">4.5 Score, 9 Reviews</div>
+                    <div className="text-sm" style={SoraReview}>4.5 Score, 9 Reviews</div>
                 </div>
             </div>
 
@@ -29,7 +41,7 @@ const Testimonial = () => {
                 </div>
                 <div className='flex flex-col'>
                     <div className="text-xl mb-4"><img src="src\assets\MotionArtEffect-img4.png" alt="" /></div>
-                    <div className="text-lg">4.5 Score, 9 Reviews</div>
+                    <div className="text-sm" style={SoraReview}>4.5 Score, 9 Reviews</div>
                 </div>
             </div>
 
@@ -42,7 +54,7 @@ const Testimonial = () => {
                 </div>
                 <div className='flex flex-col'>
                     <div className="text-xl mb-4"><img src="src\assets\MotionArtEffect-img4.png" alt="" /></div>
-                    <div className="text-lg">4.5 Score, 9 Reviews</div>
+                    <div className="text-sm" style={SoraReview}>4.5 Score, 9 Reviews</div>
                 </div>
             </div>
         </div>

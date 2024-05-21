@@ -7,11 +7,15 @@ import Testimonial from './component/Testimonial'
 import Boxes from './component/Boxes'
 import WebBrowse from './component/WebBrowse'
 import Card from './component/Card'
+// import WebGLCanvas from './component/WebGLCanvas.jsx'
+// import CanvasBackground from './component/CanvasBackground'
 
 function App() {
 
   return (
     <>
+      {/* <CanvasBackground/> */}
+       {/* <WebGLCanvas/> */}
       <Header/>
       <Banner/>
       {/* this is a testimonial for webpage */}
@@ -20,25 +24,6 @@ function App() {
          <Boxes/>
          <WebBrowse/>
          <Card/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <Footer/>
     </>
   )
