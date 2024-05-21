@@ -1,4 +1,5 @@
 import React from 'react'
+import WebBrowser from '../assets/motionarteffect-img8.png'
 
 const WebBrowse = () => {
 
@@ -17,7 +18,7 @@ const WebBrowse = () => {
       <h2 className="text-2xl font-medium mb-4 text-white" style={Sorafont}>Supported by All Popular Browsers</h2>
       <p className="mb-8  text-[#EEE5FFBD] font-light text-lg" style={Outfitp}>Rest assured, Motion Art is designed to be compatible <br/> with all major web browsers.</p>
       <div className="flex justify-center space-x-6">
-      <img src="src\assets\MotionArtEffect-img8.png" alt="webBrowsers" className='h-auto w-auto' />   
+      <img src={WebBrowser} alt="webBrowsers" className='h-auto w-auto' />   
       </div>
     </div>
   </div>
