@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "src/assets/MotionArtEffect-logo.png"
+import logo from "../assets/MotionArtEffect-logo.png"
 
 const Header = () => {
  
