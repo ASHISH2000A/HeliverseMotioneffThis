@@ -1,4 +1,7 @@
 import React from 'react'
+ import ThunderLight from '../assets/motionarteffect-img9.png'
+ import ThumbsUp from '../assets/motionarteffect-img6.png'
+ import Ufi from '../assets/motionarteffect-img7.png'
 
 const Card = () => {
 
@@ -52,19 +55,19 @@ const Card = () => {
     <div className="flex flex-col md:flex-row justify-center gap-8 mt-16">
         {/* card 1 */}
       <div className="bg-gradient-to-b from-[#0F0821] to-[#221B33] p-10 border-2 border-x-gray-500 border-y-gray-700  rounded-3xl shadow-lg flex-1 max-w-sm">
-        <img src="src\assets\MotionArtEffect-img9.png" alt=" thunder Light " style={{marginLeft:"-55px"}} className="mb-4"/>
+        <img src={ThunderLight} alt=" thunder Light " style={{marginLeft:"-55px"}} className="mb-4"/>
         <h2 className="text-2xl font-semibold mb-2 text-white   " style={Sorafontimg}>Light Weight</h2>
         <p className='text-[#EEE5FFBD] text-lg font-light  mt-5' style={Outfitp}>Motion Art for Elementor is designed to be lightweight.</p>
       </div>
       {/* card 2 */}
       <div className="bg-gradient-to-b from-[#0F0821] to-[#221B33] border-2 border-x-gray-500 border-y-gray-700 p-10 rounded-3xl  shadow-lg flex-1 max-w-sm ">
-        <img src="src\assets\MotionArtEffect-img6.png" alt="Thumbs up" style={{marginLeft:"-55px"}}  className="mb-4  "/>
+        <img src={ThumbsUp} alt="Thumbs up" style={{marginLeft:"-55px"}}  className="mb-4  "/>
         <h2 className="text-2xl font-semibold mb-2 text-white   "style={Sorafontimg}>100% Responsive</h2>
         <p className='text-[#EEE5FFBD] text-lg font-light  mt-5' style={Outfitp}>Create a consistent visual experience across all devices.</p>
       </div>
       {/* card 3 */}
       <div className="bg-gradient-to-b from-[#0F0821] to-[#221B33] border-2 border-x-gray-500 border-y-gray-700 p-10 rounded-3xl  shadow-lg flex-1 max-w-sm ">
-        <img src="src\assets\MotionArtEffect-img7.png" alt="User Friendly Interface" style={{marginLeft:"-55px"}}  className=" mb-4"/>
+        <img src={Ufi} alt="User Friendly Interface" style={{marginLeft:"-55px"}}  className=" mb-4"/>
         <h2 className="text-2xl font-semibold mb-2 text-white   "style={Sorafontimg}>User Friendly Interface</h2>
         <p className='text-[#EEE5FFBD] text-lg mt-5' style={Outfitp}>Ensure a smooth experience for both applicants and administrators.</p>
       </div>
