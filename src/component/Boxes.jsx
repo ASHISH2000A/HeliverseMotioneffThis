@@ -1,4 +1,8 @@
 import React from 'react'
+import mockimg from '../assets/motionarteffect-img11.png'
+
+
+
 const Boxes = () => {
 
   const Sorafont={
@@ -24,7 +28,7 @@ const Boxes = () => {
         <h2 className="text-2xl font-semibold mb-4 text-white" style={Sorafont}>Apply On Section</h2>
         <p className="mb-4  text-gray-500 font-Outfit ">Apply on section is a game-changer, offering an unparalleled way to manage applications directly from your website.</p>
         <div className=" rounded-full mb-4">
-          <img src="src\assets\MotionArtEffect-img11.png" alt="Logo" className='h-auto w-auto' />   
+          <img src={mockimg} alt="Logo" className='h-auto w-auto' />   
         </div>
       </div>
       {/* box 2 for img section */}
@@ -32,7 +36,7 @@ const Boxes = () => {
         <h2 className="text-2xl font-semibold mb-4 text-white" style={Sorafont}>Apply On Page</h2>
         <p className="mb-4  text-gray-500 font-Outfit ">Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation.</p>
         <div className="rounded-full mb-4">
-          <img src="src\assets\MotionArtEffect-img11.png" alt="Logo" className='h-auto w-auto 'style={{marginBottom:"-55px"}} />   
+          <img src={mockimg} alt="Logo" className='h-auto w-auto 'style={{marginBottom:"-55px"}} />   
         </div>
       </div>
       {/* box 2 ends here */}
