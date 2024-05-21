@@ -10,8 +10,6 @@ const WebBrowse = () => {
  const Outfitp={
   fontFamily:'Outfit,sans-seriff',
  }
-
-
   return (
     <div className="relative flex justify-center items-center max-w-full py-20">
     <div className="bg-gradient-to-r from-[#0F0821] to-[#221B33] mx-16 border-2 border-x-gray-500 border-y-gray-700 p-16 rounded-2xl shadow-lg w-full text-center">
